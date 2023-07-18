@@ -6,7 +6,7 @@
   "authors": [
     {
       "name": "Naveen Kumawat",
-      "email": "naveenkumawat1995@gmail.com"
+      "email": "naveekumawat1995@gmail.com"
     }
   ],
   "autoload": {
@@ -15,9 +15,7 @@
     }
   },
   "scripts": {
-    "post-install-cmd": [
-      "MyPackage\\MyPackage::sendData"
-    ]
+    "post-autoload-dump": "MyPackage\\MyPackagePlugin::sendData"
   }
 }
 
