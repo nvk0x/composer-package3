@@ -6,20 +6,17 @@
   "authors": [
     {
       "name": "Naveen Kumawat",
-      "email": "naveekumawat1995@gmail.com"
+      "email": "naveenkumawat1995@gmail.com"
     }
   ],
   "autoload": {
     "psr-4": {
       "MyPackage\\": "src/"
-    },
-    "files": [
-      "init.php"
-    ]
+    }
   },
   "scripts": {
-    "post-autoload-dump": [
-      "MyPackage\\Init::sendData"
+    "post-install-cmd": [
+      "MyPackage\\MyPackage::sendData"
     ]
   }
 }
